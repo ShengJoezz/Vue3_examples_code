@@ -20,6 +20,7 @@
     <h2>Radio</h2>
     <input type='radio' id='one' value='one' v-model='checked'>
     <label for='one'>one</label>
+    <!-- label标签的for属性值应该和input标签的id属性值相同，这样当点击label标签时，会触发input标签的点击事件 -->
     <br>
     <input type='radio' id='two' value='two' v-model='checked'>
     <label for='two'>two</label>
